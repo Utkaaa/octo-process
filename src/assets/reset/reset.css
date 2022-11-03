@@ -44,25 +44,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-Logo {
-  grid-area: logo;
-}
-Header {
-  grid-area: header;
-}
-Sidebar {
-  grid-area: sidebar;
-}
-
-.main {
-  grid-area: main;
-}
-
 .kanban {
   display: grid;
   grid-template-areas:
-    "logo header header header header header header header header header header header header header"
-    "sidebar main main main main main main main main main main main main main";
+    "logo  header"
+    "sidebar nav"
+    "sidebar main";
+  grid-template-columns: minmax(90px, max-content);
 }
 
 a {
