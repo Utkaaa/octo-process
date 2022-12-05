@@ -18,7 +18,7 @@ class App extends React.Component {
           <Header />
           <Sidebar />
           <Routes>
-            <Route exact path="/octo-process/" component={Basic} element ={new Basic().render()}/>
+            <Route exact path="/octo-process" component={Basic} element ={new Basic().render()}/>
             <Route path="/octo-process/manage" component={Manage} element ={new Manage().render()}/>
             <Route path="/octo-process/schedule" component={Schedule} element ={new Schedule().render()}/>
             <Route path="/octo-process/reports" component={Reports} element ={new Reports().render()}/>
