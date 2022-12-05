@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/octo-process/static/css/main.a3e43f7d.css",
-    "main.js": "/octo-process/static/js/main.572446c0.js",
-    "static/js/730.cf1c1441.chunk.js": "/octo-process/static/js/730.cf1c1441.chunk.js",
+    "main.js": "/octo-process/static/js/main.04584f87.js",
+    "static/js/730.2ad00ac7.chunk.js": "/octo-process/static/js/730.2ad00ac7.chunk.js",
     "static/js/930.af46ea0f.chunk.js": "/octo-process/static/js/930.af46ea0f.chunk.js",
     "static/js/350.c1882233.chunk.js": "/octo-process/static/js/350.c1882233.chunk.js",
     "static/js/368.37c49e35.chunk.js": "/octo-process/static/js/368.37c49e35.chunk.js",
@@ -12,14 +12,14 @@
     "static/media/cobain.jpg": "/octo-process/static/media/cobain.a161bee8e83fdad79089.jpg",
     "index.html": "/octo-process/index.html",
     "main.a3e43f7d.css.map": "/octo-process/static/css/main.a3e43f7d.css.map",
-    "main.572446c0.js.map": "/octo-process/static/js/main.572446c0.js.map",
-    "730.cf1c1441.chunk.js.map": "/octo-process/static/js/730.cf1c1441.chunk.js.map",
+    "main.04584f87.js.map": "/octo-process/static/js/main.04584f87.js.map",
+    "730.2ad00ac7.chunk.js.map": "/octo-process/static/js/730.2ad00ac7.chunk.js.map",
     "930.af46ea0f.chunk.js.map": "/octo-process/static/js/930.af46ea0f.chunk.js.map",
     "350.c1882233.chunk.js.map": "/octo-process/static/js/350.c1882233.chunk.js.map",
     "368.37c49e35.chunk.js.map": "/octo-process/static/js/368.37c49e35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3e43f7d.css",
-    "static/js/main.572446c0.js"
+    "static/js/main.04584f87.js"
   ]
 }
