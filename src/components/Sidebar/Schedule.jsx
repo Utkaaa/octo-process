@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 class Schedule extends React.Component {
   render() {
     return (
-      <NavLink to="/schedule" activeclassname="active-area">
+      <NavLink to="/octo-process/schedule" activeclassname="active-area">
         <div className="schedule-area">
           <i className="material-icons">event_note</i>
           <span>Schedule</span>

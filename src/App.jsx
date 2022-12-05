@@ -1,4 +1,4 @@
-import { Route, Routes, useRoutes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import React from "react";
 import Loadable from "react-loadable";
 import Header from './components/Header/Header.jsx';
@@ -18,11 +18,11 @@ class App extends React.Component {
           <Header />
           <Sidebar />
           <Routes>
-            <Route exact path="/" component={Basic} element ={new Basic().render()}/>
-            <Route path="/manage" component={Manage} element ={new Manage().render()}/>
-            <Route path="/schedule" component={Schedule} element ={new Schedule().render()}/>
-            <Route path="/reports" component={Reports} element ={new Reports().render()}/>
-            <Route path="/settings" component={Settings} element ={new Settings().render()}/>
+            <Route exact path="/octo-process/" component={Basic} element ={new Basic().render()}/>
+            <Route path="/octo-process/manage" component={Manage} element ={new Manage().render()}/>
+            <Route path="/octo-process/schedule" component={Schedule} element ={new Schedule().render()}/>
+            <Route path="/octo-process/reports" component={Reports} element ={new Reports().render()}/>
+            <Route path="/octo-process/settings" component={Settings} element ={new Settings().render()}/>
           </Routes>
         </div>
       </div>

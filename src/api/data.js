@@ -5,7 +5,7 @@ export const normalizedTasks = [
     priority: "Low Priority",
     user: "C. Guvert",
     text: "Company website redesign",
-    avatar: "../../assets/img/guvert.jpg",
+    avatar: "/media/guvert.3493691cea6db034983f.jpg",
     comments: "1",
     attach: "2",
     style: "card-color-low"

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 class Settings extends React.Component {
   render() {
     return (
-      <NavLink to="/settings" activeclassname="active-area">
+      <NavLink to="/octo-process/settings" activeclassname="active-area">
         <div className="kanban__sidebar-settings">
           <i className="material-icons">settings</i>
           <span>Settings</span>
