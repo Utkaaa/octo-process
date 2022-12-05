@@ -10,5 +10,6 @@
 }
 
 .kanban__logo span {
+  word-break:break-all;
   margin: 0 5px;
 }

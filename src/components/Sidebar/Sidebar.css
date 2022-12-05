@@ -81,6 +81,10 @@
   font-size: 28px;
 }
 
+.boards-area:hover {
+  color: var(--colorLogo);
+}
+
 .boards-area span {
   font-size: 14px;
   font-weight: 400;

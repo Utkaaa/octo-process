@@ -1,4 +1,4 @@
-import { useRoutes } from 'react-router-dom';
+import { Route, Routes, useRoutes } from 'react-router-dom';
 import React from "react";
 import Loadable from "react-loadable";
 import Header from './components/Header/Header.jsx';
@@ -17,23 +17,18 @@ class App extends React.Component {
           <Logo />
           <Header />
           <Sidebar />
-          <MyRoutes />
+          <Routes>
+            <Route exact path="/" component={Basic} element ={new Basic().render()}/>
+            <Route path="/manage" component={Manage} element ={new Manage().render()}/>
+            <Route path="/schedule" component={Schedule} element ={new Schedule().render()}/>
+            <Route path="/reports" component={Reports} element ={new Reports().render()}/>
+            <Route path="/settings" component={Settings} element ={new Settings().render()}/>
+          </Routes>
         </div>
       </div>
     );
   }
 }
-
-const MyRoutes = () => {
-  let routes = useRoutes([
-    { exact:true, path: "/", element: {Basic} },
-    { path: "/manage", element: {Manage} },
-    { path: "/schedule", element: {Schedule} },
-    { path: "/reports", element: {Reports} },
-    { path: "/settings", element: {Settings} }
-  ]);
-  return routes;
-};
 
 const Loading = () => <div className="loading">Loading...</div>;
 
