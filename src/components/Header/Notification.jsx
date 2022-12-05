@@ -8,7 +8,7 @@ class Notification extends React.Component {
         <div className="notification-icon__alert" />
         <div className="notification-icon__not">
           <div className="notification-author">
-            <img src={require("../../assets/img/cobain.jpg")} />
+            <img src={require("../../assets/img/cobain.jpg")} alt="cobain"/>
             <span>@Victoria:</span>
           </div>
           <div className="notification-text">

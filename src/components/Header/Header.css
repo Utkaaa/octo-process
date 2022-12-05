@@ -157,9 +157,9 @@
   letter-spacing: 0.5px;
 }
 
-.input-text:focus {
+/* .input-text:focus {
   border-bottom: 1px dashed var(--colorWhite);
-}
+} */
 
 .input-text::-webkit-input-placeholder {
   opacity: 1;
